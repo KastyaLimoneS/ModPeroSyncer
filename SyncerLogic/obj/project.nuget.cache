@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "C0uDmD8mTUxqiKq7VNjC4dIHHLK39Wgb0nGaR99dAkoLmLP6TG8o/6xnAcmWGiyNN0/h1ZWdsPASyx+f81ZIXQ==",
+  "success": true,
+  "projectFilePath": "/run/media/kastya/G/ModRepoSyncer/SyncerLogic/SyncerLogic.csproj",
+  "expectedPackageFiles": [
+    "/home/kastya/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.2/microsoft.aspnetcore.app.ref.7.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
