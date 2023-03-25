@@ -5,8 +5,9 @@ namespace SyncerLogic.main;
 
 public class Logic
 {
-    public Logic()
+    public Logic(String platform)
     {
+        AbstractPathManager.SelectPlatform(platform);
         PackManager.Init();
     }
 
@@ -36,6 +37,16 @@ public class Logic
     public void AddPack(String name, String adress)
     {
         PackManager.CreatePack(name, adress);
+    }
+
+    public void test1()
+    {
+        var a = RepoFactory.CreateRepo("/home/kastya/.minecraft/mods/", "local");
+        Console.WriteLine(a.Files.Length);
+        var b = RepoFactory.CreateRepo("/home/kastya/.minecraft/testMods/", "local");
+        Console.WriteLine(b.Files.Length);
+        a.UpdateTo("/home/kastya/.minecraft/testMods/", RepoMatchingResult.CompareRepos(a, b, RepoMatchingResult.CompareMode.LOADING_ONLY));
+        Console.WriteLine(b.Files.Length);
     }
 
     public String[] GetPackNames() => PackManager.GetPackNames();

@@ -1,0 +1,12 @@
+/run/media/kastya/G/ModRepoSyncer/SyncerLogic/bin/Debug/net7.0/SyncerLogic.deps.json
+/run/media/kastya/G/ModRepoSyncer/SyncerLogic/bin/Debug/net7.0/SyncerLogic.dll
+/run/media/kastya/G/ModRepoSyncer/SyncerLogic/bin/Debug/net7.0/SyncerLogic.pdb
+/run/media/kastya/G/ModRepoSyncer/SyncerLogic/obj/Debug/net7.0/SyncerLogic.csproj.AssemblyReference.cache
+/run/media/kastya/G/ModRepoSyncer/SyncerLogic/obj/Debug/net7.0/SyncerLogic.GeneratedMSBuildEditorConfig.editorconfig
+/run/media/kastya/G/ModRepoSyncer/SyncerLogic/obj/Debug/net7.0/SyncerLogic.AssemblyInfoInputs.cache
+/run/media/kastya/G/ModRepoSyncer/SyncerLogic/obj/Debug/net7.0/SyncerLogic.AssemblyInfo.cs
+/run/media/kastya/G/ModRepoSyncer/SyncerLogic/obj/Debug/net7.0/SyncerLogic.csproj.CoreCompileInputs.cache
+/run/media/kastya/G/ModRepoSyncer/SyncerLogic/obj/Debug/net7.0/SyncerLogic.dll
+/run/media/kastya/G/ModRepoSyncer/SyncerLogic/obj/Debug/net7.0/refint/SyncerLogic.dll
+/run/media/kastya/G/ModRepoSyncer/SyncerLogic/obj/Debug/net7.0/SyncerLogic.pdb
+/run/media/kastya/G/ModRepoSyncer/SyncerLogic/obj/Debug/net7.0/ref/SyncerLogic.dll

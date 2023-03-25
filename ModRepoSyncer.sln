@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyncerLogic", "SyncerLogic\SyncerLogic.csproj", "{D051E976-08F3-42EE-94C0-A71ADB5366FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSyncer", "TestSyncer\TestSyncer.csproj", "{431ECD7C-A226-4F6E-BD1C-11F6F67F78AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{D051E976-08F3-42EE-94C0-A71ADB5366FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D051E976-08F3-42EE-94C0-A71ADB5366FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D051E976-08F3-42EE-94C0-A71ADB5366FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{431ECD7C-A226-4F6E-BD1C-11F6F67F78AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{431ECD7C-A226-4F6E-BD1C-11F6F67F78AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{431ECD7C-A226-4F6E-BD1C-11F6F67F78AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{431ECD7C-A226-4F6E-BD1C-11F6F67F78AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
