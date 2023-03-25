@@ -1,4 +1,5 @@
 using SyncerLogic.abstractions;
+using SyncerLogic.yandexStuff;
 using SyncerLogic.dto;
 
 namespace SyncerLogic.main;
@@ -47,6 +48,17 @@ public class Logic
         Console.WriteLine(b.Files.Length);
         a.UpdateTo("/home/kastya/.minecraft/testMods/", RepoMatchingResult.CompareRepos(a, b, RepoMatchingResult.CompareMode.LOADING_ONLY));
         Console.WriteLine(b.Files.Length);
+    }
+
+    public void test2()
+    {
+        Console.WriteLine("=============test2=============");
+        foreach (var file in LilYandexAPI.GetFilesInFolder("https://disk.yandex.ru/d/WlkuoRC8dYU-dg"))
+        {
+            Console.WriteLine(file.Name);
+            file.DownloadTo(AbstractPathManager.Instance.ModsPath);
+        }
+        Console.WriteLine("===============================");
     }
 
     public String[] GetPackNames() => PackManager.GetPackNames();
