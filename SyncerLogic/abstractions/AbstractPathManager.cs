@@ -20,6 +20,11 @@ internal abstract class AbstractPathManager
             Instance = new UnixPathManager();
             return;
         }
+        if (platform == "Win32NT" || platform == "Win64NT")
+        {
+            Instance = new WindowsPathManager();
+            return;
+        }
         throw new NotImplementedException();
     }
 }

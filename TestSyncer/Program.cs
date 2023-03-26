@@ -1,5 +1,6 @@
 ﻿using SyncerLogic.main;
 
+Console.WriteLine(Environment.OSVersion.Platform.ToString());
 var logic = new Logic(Environment.OSVersion.Platform.ToString());
 
 int a = 0;

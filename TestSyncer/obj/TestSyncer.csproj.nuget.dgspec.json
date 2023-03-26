@@ -56,6 +56,14 @@
             {
               "name": "Microsoft.AspNetCore.App.Ref",
               "version": "[7.0.2, 7.0.2]"
+            },
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[7.0.2, 7.0.2]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[7.0.2, 7.0.2]"
             }
           ],
           "frameworkReferences": {
@@ -64,6 +72,11 @@
             }
           },
           "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
         }
       }
     },
@@ -123,6 +136,18 @@
             {
               "name": "Microsoft.AspNetCore.App.Ref",
               "version": "[7.0.2, 7.0.2]"
+            },
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[7.0.2, 7.0.2]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.2, 7.0.2]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[7.0.2, 7.0.2]"
             }
           ],
           "frameworkReferences": {
@@ -131,6 +156,11 @@
             }
           },
           "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
         }
       }
     }

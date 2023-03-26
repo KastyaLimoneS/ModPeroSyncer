@@ -9,6 +9,7 @@ public class Logic
     public Logic(String platform)
     {
         AbstractPathManager.SelectPlatform(platform);
+        InitIfNeeded();
         PackManager.Init();
     }
 
@@ -38,6 +39,18 @@ public class Logic
     public void AddPack(String name, String adress)
     {
         PackManager.CreatePack(name, adress);
+    }
+
+    public void InitIfNeeded()
+    {
+        if (!Directory.Exists(AbstractPathManager.Instance.SettingsPath)) Directory.CreateDirectory(AbstractPathManager.Instance.SettingsPath);
+        if (!Directory.Exists(AbstractPathManager.Instance.CachePath)) Directory.CreateDirectory(AbstractPathManager.Instance.CachePath);
+        if (!File.Exists(AbstractPathManager.Instance.SettingsPath+"packs.json")) {
+            var file = File.Create(AbstractPathManager.Instance.SettingsPath+"packs.json");
+            file.Close();
+            using (StreamWriter writer = new StreamWriter(AbstractPathManager.Instance.SettingsPath+"packs.json"))
+            writer.Write("{\"packs\":\"\"}");
+        }
     }
 
     public void test1()
